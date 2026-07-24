@@ -1,24 +1,45 @@
+# Dependencies
+/vendor
+node_modules/
+
+# Laravel specific paths
 /.phpunit.cache
-/node_modules
 /public/build
 /public/fonts-manifest.dev.json
 /public/hot
 /public/storage
 /storage/*.key
 /storage/pail
-/vendor
+bootstrap/compiled.php
+app/storage/
+public_html/storage
+public_html/hot
+
+# Environment files
 .env
 .env.backup
 .env.production
+.env.local
+
+# Development tools
 .phpactor.json
 .phpunit.result.cache
+
+# Homestead
 Homestead.json
 Homestead.yaml
-npm-debug.log
-yarn-error.log
-/auth.json
+/.vagrant
+
+# IDE and Editor files
 /.fleet
 /.idea
 /.nova
 /.vscode
 /.zed
+
+# Build and logs
+npm-debug.log
+yarn-error.log
+
+# Auth and credentials
+/auth.json
